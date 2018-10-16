@@ -16,3 +16,9 @@ $ git commit -m "branch test"
  
  $ git checkout master
 Switched to branch 'master'
+
+$ git merge dev
+Updating d17efd8..fec145a
+Fast-forward
+ readme.txt |    1 +
+ 1 file changed, 1 insertion(+)

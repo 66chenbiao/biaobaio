@@ -1,6 +1,6 @@
 big title
 ==========
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=66chenbiao&show_icons=true&theme=radical)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=66chenbiao&repo=python_code)](https://github.com/66chenbiao/python_code)
 
 middle title
 ------------

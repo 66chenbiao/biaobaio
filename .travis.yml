@@ -12,9 +12,10 @@ before_install:
   - pip install -U pip
   - pip install -U pytest
   - pip install codecov
-# install:
-#   - pip install ".[test]" . # install package + test dependencies
+install:
+  - pip install ".[test]" . # install package + test dependencies
   
-script: pytest # run tests
+script: python3 -m cfunc/test_sample.py
+# script: pytest # run tests
 after_success:
   - codecov # submit coverage

@@ -13,7 +13,7 @@ before_install:
   - pip install -U pytest
   - pip install codecov
 install:
-  - pip install ".[test]" . # install package + test dependencies
+#   - pip install ".[test]" . # install package + test dependencies
   
 script: python3 -m cfunc/test_sample.py
 # script: pytest # run tests

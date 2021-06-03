@@ -10,13 +10,13 @@ addons:
 before_install:
   - python --version
   - pip install -U pytest
-  - pip install codecov
+  - pip install pytest-cov
 install:
 #   - pip install ".[test]" . # install package + test dependencies
   
 script: 
   - python3 -m pytest
-  - codecov
+  - pytest --cov=./ --cov-report=xml
 # script: pytest # run tests
 after_success:
   - codecov # submit coverage

@@ -16,7 +16,6 @@ install:
   
 script: 
   - python3 -m pytest
-  - coverage run tests.py
 # script: pytest # run tests
 after_success:
   - codecov # submit coverage

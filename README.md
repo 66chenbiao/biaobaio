@@ -3,7 +3,7 @@
 
 big title
 ==========
-![](https://travis-ci.org/66chenbiao/python_code.svg?branch=master)
+![](https://travis-ci.org/66chenbiao/python_code.svg?branch=master)[![Coverage Status](https://coveralls.io/repos/github/66chenbiao/python_code/badge.svg?branch=master)](https://coveralls.io/github/66chenbiao/python_code?branch=master)
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=66chenbiao&repo=python_code)](https://github.com/66chenbiao/python_code)
 

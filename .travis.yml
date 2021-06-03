@@ -18,5 +18,9 @@ script:
   - python3 -m pytest
   - pytest --cov=./ --cov-report=xml
 # script: pytest # run tests
+
+token: 
+  - ${{ secrets.CODECOV_TOKEN }}
+
 after_success:
   - codecov # submit coverage
